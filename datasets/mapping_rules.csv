@@ -3,7 +3,7 @@ banking_core,customer_id,document_id,"REGEXP_REPLACE(customer_id, r'[^0-9]', '')
 banking_core,customer_email,email,"UPPER(TRIM(customer_email))"
 banking_core,customer_phone,phone,"REGEXP_REPLACE(customer_phone, r'^\+58', '0')"
 supermarket_pos,id_number,document_id,"SAFE_CAST(REGEXP_REPLACE(id_number, r'[^0-9]', '') AS INT64)"
-supermarket_pos,first,last_name,name,"INITCAP(CONCAT(first, ' ', last_name))"
+supermarket_pos,first_last_name,name,"INITCAP(CONCAT(first, ' ', last_name))"
 supermarket_pos,mail,email,"UPPER(TRIM(mail))"
 university_students,student_id,document_id,"SAFE_CAST(REGEXP_REPLACE(student_id, r'[^0-9]', '') AS INT64)"
 university_students,email,email,"UPPER(email)"

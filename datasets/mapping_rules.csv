@@ -8,3 +8,4 @@ supermarket_pos,mail,email,"UPPER(TRIM(mail))"
 university_students,student_id,document_id,"SAFE_CAST(REGEXP_REPLACE(student_id, r'[^0-9]', '') AS INT64)"
 university_students,email,email,"UPPER(email)"
 university_students,phone,phone,"REGEXP_REPLACE(phone, r'^\+58', '0')"
+

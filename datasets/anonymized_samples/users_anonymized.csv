@@ -1,0 +1,6 @@
+person_uid,email_hash,has_phone,gender,birth_date
+123,SHA256(ana.gutierrez@gmail.com),true,F,1994-05-14
+456,SHA256(c.lopez@yahoo.com),true,M,1987-10-22
+789,SHA256(lucy.rivas@outlook.com),false,F,2000-01-03
+912,SHA256(jperez@gmail.com),true,M,1992-09-09
+345,SHA256(val.mendez@icloud.com),false,F,1998-04-01

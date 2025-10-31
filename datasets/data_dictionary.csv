@@ -1,0 +1,10 @@
+column_name,data_type,description,pii_layer
+person_uid,STRING,"SHA256 irreversible anonymized identifier",Gold
+document_id,INT64,"Original ID converted to standardized numeric form (removed in Gold)",Silver
+email_hash,STRING,"SHA256 hash of email (cannot be reversed)",Gold
+has_phone,BOOLEAN,"Indicates if phone exists without exposing number",Gold
+gender,STRING,"M or F normalized from input",Silver
+birth_date,DATE,"Standardized date format",Silver
+customer_segment,STRING,"Customer segmentation for analytics (RFM / business logic)",Gold
+rfm_score,INT,"Recency-frequency-monetary score",Gold
+processed_at,TIMESTAMP,"Timestamp when data entered master model",Gold

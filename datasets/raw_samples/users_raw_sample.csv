@@ -1,0 +1,6 @@
+customer_id,first_name,last_name,email,phone,birth_date,gender
+00123,Ana,Gutierrez,ana.gutierrez@gmail.com,+58 412-555-9812,1994-05-14,Female
+04567,Carlos,Lopez,c.lopez@yahoo.com,+1 (305) 555-5567,1987-10-22,Male
+07890,Lucia,Rivas,lucy.rivas@outlook.com,,2000-01-03,Female
+09912,John,Perez,jperez@gmail.com,+56 9 5555-7777,1992-09-09,Male
+00345,Valeria,Mendez,val.mendez@icloud.com,,1998-04-01,Female
